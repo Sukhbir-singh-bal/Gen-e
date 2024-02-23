@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GoogleGenerativeAI } from "https://esm.run/@google/generative-ai";
+import { GoogleGenerativeAI } from "../API/generativeAI";
 
 const API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 
